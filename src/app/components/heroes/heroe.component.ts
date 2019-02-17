@@ -17,7 +17,7 @@ export class HeroeComponent implements OnInit {
   nuevo:boolean=false;
   id:string;
 
- private heroe:Heroe={
+ public heroe:Heroe={
     nombre:"",
     bio:"",
     casa:"Marvel"
